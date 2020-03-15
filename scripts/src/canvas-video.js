@@ -12,6 +12,7 @@ const setupVideo = () => {
 };
 
 const init = e => {
+    console.log('hello world');
     const playBtn = document.getElementById('start');
     const video = setupVideo();
 
